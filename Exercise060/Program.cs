@@ -31,7 +31,6 @@ void PrintArrayByLines(int[,,] array)
     {
         for (int i = 0; i < array.GetLength(0); i++)
         {
-            //Console.Write($"X({i}) Y({j}) ");
             for (int k = 0; k < array.GetLength(2); k++)
             {
                 Console.Write($"{array [i,j,k]} ({i};{j};{k}) \t");
